@@ -4,12 +4,6 @@
   "files": [],
   "references": [
     {
-      "path": "./packages/apps-e2e"
-    },
-    {
-      "path": "./packages/apps"
-    },
-    {
       "path": "./packages/apps/api-e2e"
     },
     {
