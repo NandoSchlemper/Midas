@@ -1,14 +1,27 @@
+import * as path from 'path';
 import { FastifyInstance } from 'fastify';
-import fastifyHomeRoute from './routes/root';
+import AutoLoad from '@fastify/autoload';
 
-export async function app(fastify: FastifyInstance) {
-  // plugins:
-  await fastify.register(require('@fastify/cors'), {
-    cors: {
-      origin: "*"
-    }
-  })
+/* eslint-disable-next-line */
+export interface AppOptions {}
 
-  // routes:
-  await fastify.register(fastifyHomeRoute)
+export async function app(fastify: FastifyInstance, opts: AppOptions) {
+  // Place here your custom code!
+
+  // Do not touch the following lines
+
+  // This loads all plugins defined in plugins
+  // those should be support plugins that are reused
+  // through your application
+  fastify.register(AutoLoad, {
+    dir: path.join(__dirname, 'plugins'),
+    options: { ...opts },
+  });
+
+  // This loads all plugins defined in routes
+  // define your routes in one of these
+  fastify.register(AutoLoad, {
+    dir: path.join(__dirname, 'routes'),
+    options: { ...opts },
+  });
 }

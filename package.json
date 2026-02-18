@@ -6,12 +6,12 @@
   "private": true,
   "devDependencies": {
     "@eslint/js": "^9.8.0",
-    "@nx/esbuild": "22.5.0",
+    "@nx/esbuild": "22.5.1",
     "@nx/eslint": "22.5.0",
     "@nx/eslint-plugin": "22.5.0",
     "@nx/jest": "22.5.0",
-    "@nx/js": "22.5.0",
-    "@nx/node": "^22.5.0",
+    "@nx/js": "22.5.1",
+    "@nx/node": "22.5.1",
     "@swc-node/register": "1.11.1",
     "@swc/core": "1.15.8",
     "@swc/helpers": "0.5.18",
@@ -34,9 +34,12 @@
   },
   "workspaces": [
     "packages/*",
-    "packages/apps/*"
+    "packages/apps/*",
+    "packages/libs/*"
   ],
   "dependencies": {
+    "@fastify/autoload": "~6.0.3",
+    "@fastify/sensible": "~6.0.2",
     "axios": "^1.6.0",
     "fastify": "^5.7.4",
     "fastify-plugin": "~5.0.1",

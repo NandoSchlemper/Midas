@@ -8,6 +8,9 @@
     },
     {
       "path": "./packages/apps/api"
+    },
+    {
+      "path": "./packages/libs/data-access"
     }
   ]
 }

@@ -4,8 +4,8 @@
     "outDir": "out-tsc/@org/api-e2e",
     "esModuleInterop": true,
     "noUnusedLocals": false,
-    "noImplicitAny": false,
+    "noImplicitAny": false
   },
-  "include": ["jest.config.cts", "src/**/*.ts", "src/support/global-setup.cts"],
+  "include": ["jest.config.ts", "src/**/*.ts"],
   "references": []
 }
