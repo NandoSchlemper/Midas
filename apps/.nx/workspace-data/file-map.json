@@ -1,0 +1,243 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.5.1",
+  "pathMappings": {},
+  "nxJsonPlugins": [
+    {
+      "name": "@nx/js/typescript",
+      "options": {
+        "typecheck": {
+          "targetName": "typecheck"
+        },
+        "build": {
+          "targetName": "build",
+          "configName": "tsconfig.lib.json",
+          "buildDepsName": "build-deps",
+          "watchDepsName": "watch-deps"
+        }
+      }
+    },
+    {
+      "name": "@nx/webpack/plugin",
+      "options": {
+        "buildTargetName": "build",
+        "serveTargetName": "serve",
+        "previewTargetName": "preview",
+        "buildDepsTargetName": "build-deps",
+        "watchDepsTargetName": "watch-deps",
+        "serveStaticTargetName": "serve-static"
+      }
+    },
+    {
+      "name": "@nx/jest/plugin",
+      "options": {
+        "targetName": "test"
+      }
+    }
+  ],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "9213394085107209752"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "17085498363870782104"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "6820402234827505055"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "12411818343683696138"
+      },
+      {
+        "file": "AGENTS.md",
+        "hash": "5250347750826082732"
+      },
+      {
+        "file": "CLAUDE.md",
+        "hash": "5250347750826082732"
+      },
+      {
+        "file": "README.md",
+        "hash": "6971509912269151348"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "14236175072743533737"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "13737983450217408137"
+      },
+      {
+        "file": "nx.json",
+        "hash": "17119476451202279156"
+      },
+      {
+        "file": "opencode.json",
+        "hash": "8366098242203802032"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "4155533241480236569"
+      },
+      {
+        "file": "package.json",
+        "hash": "3319071429175109011"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "4315321399922957604"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "9334778710443299163"
+      }
+    ],
+    "projectFileMap": {
+      "@org/infra": [
+        {
+          "file": "libs/infra/.spec.swcrc",
+          "hash": "18201067170784284381"
+        },
+        {
+          "file": "libs/infra/README.md",
+          "hash": "12614450650271934690"
+        },
+        {
+          "file": "libs/infra/jest.config.cts",
+          "hash": "9080153052781736296"
+        },
+        {
+          "file": "libs/infra/package.json",
+          "hash": "4947996692791672188",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "libs/infra/src/index.ts",
+          "hash": "15925746558407145274"
+        },
+        {
+          "file": "libs/infra/src/lib/database.module.spec.ts",
+          "hash": "16755493460546937884"
+        },
+        {
+          "file": "libs/infra/src/lib/database.module.ts",
+          "hash": "4253025865647563603"
+        },
+        {
+          "file": "libs/infra/tsconfig.json",
+          "hash": "12834038490315927699"
+        },
+        {
+          "file": "libs/infra/tsconfig.lib.json",
+          "hash": "15368862745030595149"
+        },
+        {
+          "file": "libs/infra/tsconfig.spec.json",
+          "hash": "4640292565747958203"
+        }
+      ],
+      "@org/api": [
+        {
+          "file": "app/api/.spec.swcrc",
+          "hash": "18201067170784284381"
+        },
+        {
+          "file": "app/api/jest.config.cts",
+          "hash": "14832768474095299521"
+        },
+        {
+          "file": "app/api/package.json",
+          "hash": "5671423318376665920",
+          "deps": [
+            "npm:@nestjs/testing",
+            "npm:@nestjs/common",
+            "npm:@nestjs/core",
+            "npm:@nestjs/platform-express",
+            "npm:reflect-metadata",
+            "npm:rxjs",
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "app/api/src/app/app.controller.spec.ts",
+          "hash": "16195083839539355803",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "app/api/src/app/app.controller.ts",
+          "hash": "15276891910009544695",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "app/api/src/app/app.module.ts",
+          "hash": "11673476679848632172",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "app/api/src/app/app.service.spec.ts",
+          "hash": "17298266700909662742",
+          "deps": [
+            "npm:@nestjs/testing"
+          ]
+        },
+        {
+          "file": "app/api/src/app/app.service.ts",
+          "hash": "1398463054208547248",
+          "deps": [
+            "npm:@nestjs/common"
+          ]
+        },
+        {
+          "file": "app/api/src/assets/.gitkeep",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "app/api/src/main.ts",
+          "hash": "2001345965177334983",
+          "deps": [
+            "npm:@nestjs/common",
+            "npm:@nestjs/core"
+          ]
+        },
+        {
+          "file": "app/api/tsconfig.app.json",
+          "hash": "8386251795698542386"
+        },
+        {
+          "file": "app/api/tsconfig.json",
+          "hash": "9214820933160915425"
+        },
+        {
+          "file": "app/api/tsconfig.spec.json",
+          "hash": "17311670528646991813"
+        },
+        {
+          "file": "app/api/webpack.config.js",
+          "hash": "3021009145365037971",
+          "deps": [
+            "npm:@nx/webpack"
+          ]
+        }
+      ]
+    }
+  },
+  "externalNodesHash": "13627943704582799391"
+}

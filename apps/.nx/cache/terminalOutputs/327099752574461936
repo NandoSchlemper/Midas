@@ -1,0 +1,39 @@
+[2m> [22mwebpack-cli build --node-env=production
+
+[webpack-cli] [31mFailed to load 'C:\Users\Fernando\personal\Midas\apps\app\api\webpack.config.js' config[39m
+[webpack-cli] [31mError: ENOENT: no such file or directory, stat 'C:\Users\Fernando\personal\Midas\apps\app\api\src\assets'
+    at statSync (node:fs:1740:25)
+    at C:\Users\Fernando\personal\Midas\apps\node_modules\@nx\webpack\src\plugins\nx-webpack-plugin\lib\normalize-options.js:99:51
+    at Array.map (<anonymous>)
+    at normalizeAssets (C:\Users\Fernando\personal\Midas\apps\node_modules\@nx\webpack\src\plugins\nx-webpack-plugin\lib\normalize-options.js:91:19)
+    at normalizeOptions (C:\Users\Fernando\personal\Midas\apps\node_modules\@nx\webpack\src\plugins\nx-webpack-plugin\lib\normalize-options.js:59:15)
+    at new NxAppWebpackPlugin (C:\Users\Fernando\personal\Midas\apps\node_modules\@nx\webpack\src\plugins\nx-webpack-plugin\nx-app-webpack-plugin.js:21:69)
+    at Object.<anonymous> (C:\Users\Fernando\personal\Midas\apps\app\api\webpack.config.js:13:5)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\Fernando\\personal\\Midas\\apps\\app\\api\\src\\assets'
+}[39m
+[2m> [22mwebpack-cli build --node-env=production
+
+[webpack-cli] [31mFailed to load 'C:\Users\Fernando\personal\Midas\apps\app\api\webpack.config.js' config[39m
+[webpack-cli] [31mError: ENOENT: no such file or directory, stat 'C:\Users\Fernando\personal\Midas\apps\app\api\src\assets'
+    at statSync (node:fs:1740:25)
+    at C:\Users\Fernando\personal\Midas\apps\node_modules\@nx\webpack\src\plugins\nx-webpack-plugin\lib\normalize-options.js:99:51
+    at Array.map (<anonymous>)
+    at normalizeAssets (C:\Users\Fernando\personal\Midas\apps\node_modules\@nx\webpack\src\plugins\nx-webpack-plugin\lib\normalize-options.js:91:19)
+    at normalizeOptions (C:\Users\Fernando\personal\Midas\apps\node_modules\@nx\webpack\src\plugins\nx-webpack-plugin\lib\normalize-options.js:59:15)
+    at new NxAppWebpackPlugin (C:\Users\Fernando\personal\Midas\apps\node_modules\@nx\webpack\src\plugins\nx-webpack-plugin\nx-app-webpack-plugin.js:21:69)
+    at Object.<anonymous> (C:\Users\Fernando\personal\Midas\apps\app\api\webpack.config.js:13:5)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'C:\\Users\\Fernando\\personal\\Midas\\apps\\app\\api\\src\\assets'
+}[39m
+Warning: command "webpack-cli build --node-env=production" exited with non-zero status code
