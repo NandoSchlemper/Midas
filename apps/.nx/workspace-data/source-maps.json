@@ -485,285 +485,285 @@
       "nx/target-defaults"
     ]
   },
-  "libs/infra": {
+  "libs/infra/database": {
     "root": [
-      "libs/infra/package.json",
+      "libs/infra/database/package.json",
       "nx/core/package-json"
     ],
     "targets": [
-      "libs/infra/tsconfig.json",
+      "libs/infra/database/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck": [
-      "libs/infra/tsconfig.json",
+      "libs/infra/database/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.dependsOn": [
-      "libs/infra/tsconfig.json",
+      "libs/infra/database/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.options": [
-      "libs/infra/tsconfig.json",
+      "libs/infra/database/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.cache": [
-      "libs/infra/tsconfig.json",
+      "libs/infra/database/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.inputs": [
-      "libs/infra/tsconfig.json",
+      "libs/infra/database/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.outputs": [
-      "libs/infra/tsconfig.json",
+      "libs/infra/database/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.syncGenerators": [
-      "libs/infra/tsconfig.json",
+      "libs/infra/database/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata": [
-      "libs/infra/tsconfig.json",
+      "libs/infra/database/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.executor": [
-      "libs/infra/tsconfig.json",
+      "libs/infra/database/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.options.cwd": [
-      "libs/infra/tsconfig.json",
+      "libs/infra/database/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.options.command": [
-      "libs/infra/tsconfig.json",
+      "libs/infra/database/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata.technologies": [
-      "libs/infra/tsconfig.json",
+      "libs/infra/database/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata.technologies.0": [
-      "libs/infra/tsconfig.json",
+      "libs/infra/database/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata.description": [
-      "libs/infra/tsconfig.json",
+      "libs/infra/database/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata.help": [
-      "libs/infra/tsconfig.json",
+      "libs/infra/database/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata.help.command": [
-      "libs/infra/tsconfig.json",
+      "libs/infra/database/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.typecheck.metadata.help.example": [
-      "libs/infra/tsconfig.json",
+      "libs/infra/database/tsconfig.json",
       "@nx/js/typescript"
     ],
     "targets.build": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.build.dependsOn": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.build.options": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.build.cache": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.build.inputs": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.build.outputs": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.build.syncGenerators": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.build.metadata": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.build.executor": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.build.options.cwd": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.build.options.command": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.build.metadata.technologies": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.build.metadata.technologies.0": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.build.metadata.description": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.build.metadata.help": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.build.metadata.help.command": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.build.metadata.help.example": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.build-deps": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.build-deps.dependsOn": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.watch-deps": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.watch-deps.continuous": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.watch-deps.dependsOn": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.watch-deps.executor": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.watch-deps.options": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.watch-deps.options.command": [
-      "libs/infra/tsconfig.lib.json",
+      "libs/infra/database/tsconfig.lib.json",
       "@nx/js/typescript"
     ],
     "targets.test": [
-      "libs/infra/jest.config.cts",
+      "libs/infra/database/jest.config.cts",
       "@nx/jest/plugin"
     ],
     "targets.test.options": [
-      "libs/infra/jest.config.cts",
+      "libs/infra/database/jest.config.cts",
       "@nx/jest/plugin"
     ],
     "targets.test.metadata": [
-      "libs/infra/jest.config.cts",
+      "libs/infra/database/jest.config.cts",
       "@nx/jest/plugin"
     ],
     "targets.test.cache": [
-      "libs/infra/jest.config.cts",
+      "libs/infra/database/jest.config.cts",
       "@nx/jest/plugin"
     ],
     "targets.test.inputs": [
-      "libs/infra/jest.config.cts",
+      "libs/infra/database/jest.config.cts",
       "@nx/jest/plugin"
     ],
     "targets.test.outputs": [
-      "libs/infra/jest.config.cts",
+      "libs/infra/database/jest.config.cts",
       "@nx/jest/plugin"
     ],
     "targets.test.executor": [
-      "libs/infra/jest.config.cts",
+      "libs/infra/database/jest.config.cts",
       "@nx/jest/plugin"
     ],
     "targets.test.options.cwd": [
-      "libs/infra/jest.config.cts",
+      "libs/infra/database/jest.config.cts",
       "@nx/jest/plugin"
     ],
     "targets.test.options.env": [
-      "libs/infra/jest.config.cts",
+      "libs/infra/database/jest.config.cts",
       "@nx/jest/plugin"
     ],
     "targets.test.options.command": [
-      "libs/infra/jest.config.cts",
+      "libs/infra/database/jest.config.cts",
       "@nx/jest/plugin"
     ],
     "targets.test.metadata.technologies": [
-      "libs/infra/jest.config.cts",
+      "libs/infra/database/jest.config.cts",
       "@nx/jest/plugin"
     ],
     "targets.test.metadata.technologies.0": [
-      "libs/infra/jest.config.cts",
+      "libs/infra/database/jest.config.cts",
       "@nx/jest/plugin"
     ],
     "targets.test.metadata.description": [
-      "libs/infra/jest.config.cts",
+      "libs/infra/database/jest.config.cts",
       "@nx/jest/plugin"
     ],
     "targets.test.metadata.help": [
-      "libs/infra/jest.config.cts",
+      "libs/infra/database/jest.config.cts",
       "@nx/jest/plugin"
     ],
     "targets.test.metadata.help.command": [
-      "libs/infra/jest.config.cts",
+      "libs/infra/database/jest.config.cts",
       "@nx/jest/plugin"
     ],
     "targets.test.metadata.help.example": [
-      "libs/infra/jest.config.cts",
+      "libs/infra/database/jest.config.cts",
       "@nx/jest/plugin"
     ],
     "name": [
-      "libs/infra/package.json",
+      "libs/infra/database/package.json",
       "nx/core/package-json"
     ],
     "tags": [
-      "libs/infra/package.json",
+      "libs/infra/database/package.json",
       "nx/core/package-json"
     ],
     "tags.npm:private": [
-      "libs/infra/package.json",
+      "libs/infra/database/package.json",
       "nx/core/package-json"
     ],
     "metadata.targetGroups": [
-      "libs/infra/package.json",
+      "libs/infra/database/package.json",
       "nx/core/package-json"
     ],
     "metadata.js": [
-      "libs/infra/package.json",
+      "libs/infra/database/package.json",
       "nx/core/package-json"
     ],
     "metadata.js.packageName": [
-      "libs/infra/package.json",
+      "libs/infra/database/package.json",
       "nx/core/package-json"
     ],
     "metadata.js.packageVersion": [
-      "libs/infra/package.json",
+      "libs/infra/database/package.json",
       "nx/core/package-json"
     ],
     "metadata.js.packageExports": [
-      "libs/infra/package.json",
+      "libs/infra/database/package.json",
       "nx/core/package-json"
     ],
     "metadata.js.packageMain": [
-      "libs/infra/package.json",
+      "libs/infra/database/package.json",
       "nx/core/package-json"
     ],
     "metadata.js.isInPackageManagerWorkspaces": [
-      "libs/infra/package.json",
+      "libs/infra/database/package.json",
       "nx/core/package-json"
     ],
     "targets.test.dependsOn": [

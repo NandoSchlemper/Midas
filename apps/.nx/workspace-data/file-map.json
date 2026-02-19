@@ -38,116 +38,71 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".gitignore",
-        "hash": "9213394085107209752"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "17085498363870782104"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "6820402234827505055"
-      },
-      {
-        "file": ".vscode/extensions.json",
-        "hash": "4934098906304722861"
-      },
-      {
-        "file": ".vscode/launch.json",
-        "hash": "12411818343683696138"
-      },
-      {
-        "file": "AGENTS.md",
-        "hash": "5250347750826082732"
-      },
-      {
-        "file": "CLAUDE.md",
-        "hash": "5250347750826082732"
+        "file": "tsconfig.json",
+        "hash": "18014452276603354218"
       },
       {
         "file": "README.md",
         "hash": "6971509912269151348"
       },
       {
-        "file": "jest.config.ts",
-        "hash": "14236175072743533737"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "13737983450217408137"
+        "file": ".gitignore",
+        "hash": "9213394085107209752"
       },
       {
         "file": "nx.json",
         "hash": "17119476451202279156"
       },
       {
-        "file": "opencode.json",
-        "hash": "8366098242203802032"
+        "file": "tsconfig.base.json",
+        "hash": "4315321399922957604"
       },
       {
-        "file": "package-lock.json",
-        "hash": "4155533241480236569"
+        "file": ".vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "6820402234827505055"
+      },
+      {
+        "file": "AGENTS.md",
+        "hash": "5250347750826082732"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "13737983450217408137"
+      },
+      {
+        "file": "CLAUDE.md",
+        "hash": "5250347750826082732"
       },
       {
         "file": "package.json",
         "hash": "3319071429175109011"
       },
       {
-        "file": "tsconfig.base.json",
-        "hash": "4315321399922957604"
+        "file": ".vscode/launch.json",
+        "hash": "12411818343683696138"
       },
       {
-        "file": "tsconfig.json",
-        "hash": "9334778710443299163"
+        "file": "jest.config.ts",
+        "hash": "14236175072743533737"
+      },
+      {
+        "file": "opencode.json",
+        "hash": "8366098242203802032"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "17085498363870782104"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "12367356599050329340"
       }
     ],
     "projectFileMap": {
-      "@org/infra": [
-        {
-          "file": "libs/infra/.spec.swcrc",
-          "hash": "18201067170784284381"
-        },
-        {
-          "file": "libs/infra/README.md",
-          "hash": "12614450650271934690"
-        },
-        {
-          "file": "libs/infra/jest.config.cts",
-          "hash": "9080153052781736296"
-        },
-        {
-          "file": "libs/infra/package.json",
-          "hash": "4947996692791672188",
-          "deps": [
-            "npm:tslib"
-          ]
-        },
-        {
-          "file": "libs/infra/src/index.ts",
-          "hash": "15925746558407145274"
-        },
-        {
-          "file": "libs/infra/src/lib/database.module.spec.ts",
-          "hash": "16755493460546937884"
-        },
-        {
-          "file": "libs/infra/src/lib/database.module.ts",
-          "hash": "4253025865647563603"
-        },
-        {
-          "file": "libs/infra/tsconfig.json",
-          "hash": "12834038490315927699"
-        },
-        {
-          "file": "libs/infra/tsconfig.lib.json",
-          "hash": "15368862745030595149"
-        },
-        {
-          "file": "libs/infra/tsconfig.spec.json",
-          "hash": "4640292565747958203"
-        }
-      ],
       "@org/api": [
         {
           "file": "app/api/.spec.swcrc",
@@ -235,6 +190,55 @@
           "deps": [
             "npm:@nx/webpack"
           ]
+        }
+      ],
+      "@org/database": [
+        {
+          "file": "libs/infra/database/.spec.swcrc",
+          "hash": "18201067170784284381"
+        },
+        {
+          "file": "libs/infra/database/README.md",
+          "hash": "9759918918454671098"
+        },
+        {
+          "file": "libs/infra/database/jest.config.cts",
+          "hash": "100815153938709627"
+        },
+        {
+          "file": "libs/infra/database/package.json",
+          "hash": "17485098449637258064",
+          "deps": [
+            "npm:tslib"
+          ]
+        },
+        {
+          "file": "libs/infra/database/src/index.ts",
+          "hash": "15925746558407145274"
+        },
+        {
+          "file": "libs/infra/database/src/lib/database.module.spec.ts",
+          "hash": "11605942131303913302"
+        },
+        {
+          "file": "libs/infra/database/src/lib/database.module.ts",
+          "hash": "7359317065646903957"
+        },
+        {
+          "file": "libs/infra/database/src/lib/user/user.schema.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "libs/infra/database/tsconfig.json",
+          "hash": "14186287857387999199"
+        },
+        {
+          "file": "libs/infra/database/tsconfig.lib.json",
+          "hash": "7199263359076106229"
+        },
+        {
+          "file": "libs/infra/database/tsconfig.spec.json",
+          "hash": "11788326827118506909"
         }
       ]
     }

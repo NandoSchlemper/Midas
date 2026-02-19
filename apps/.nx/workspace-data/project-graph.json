@@ -1,10 +1,10 @@
 {
   "nodes": {
-    "@org/infra": {
-      "name": "@org/infra",
+    "@org/database": {
+      "name": "@org/database",
       "type": "lib",
       "data": {
-        "root": "libs/infra",
+        "root": "libs/infra/database",
         "targets": {
           "typecheck": {
             "dependsOn": [
@@ -12,7 +12,7 @@
               "^typecheck"
             ],
             "options": {
-              "cwd": "libs\\infra",
+              "cwd": "libs\\infra\\database",
               "command": "tsc --build --emitDeclarationOnly"
             },
             "cache": true,
@@ -74,7 +74,7 @@
               "^build"
             ],
             "options": {
-              "cwd": "libs\\infra",
+              "cwd": "libs\\infra\\database",
               "command": "tsc --build tsconfig.lib.json"
             },
             "cache": true,
@@ -129,14 +129,14 @@
             ],
             "executor": "nx:run-commands",
             "options": {
-              "command": "npx nx watch --projects @org/infra --includeDependentProjects -- npx nx build-deps @org/infra"
+              "command": "npx nx watch --projects @org/database --includeDependentProjects -- npx nx build-deps @org/database"
             },
             "configurations": {},
             "parallelism": true
           },
           "test": {
             "options": {
-              "cwd": "libs/infra",
+              "cwd": "libs/infra/database",
               "env": {
                 "TS_NODE_COMPILER_OPTIONS": "{\"moduleResolution\":\"node10\",\"module\":\"commonjs\",\"customConditions\":null}"
               },
@@ -178,14 +178,14 @@
             ]
           }
         },
-        "name": "@org/infra",
+        "name": "@org/database",
         "tags": [
           "npm:private"
         ],
         "metadata": {
           "targetGroups": {},
           "js": {
-            "packageName": "@org/infra",
+            "packageName": "@org/database",
             "packageVersion": "0.0.1",
             "packageExports": {
               "./package.json": "./package.json",
@@ -10980,9 +10980,9 @@
     }
   },
   "dependencies": {
-    "@org/infra": [
+    "@org/database": [
       {
-        "source": "@org/infra",
+        "source": "@org/database",
         "target": "npm:tslib",
         "type": "static"
       }
@@ -25107,5 +25107,5 @@
   },
   "version": "6.0",
   "errors": [],
-  "computedAt": 1771529492563
+  "computedAt": 1771532905069
 }
