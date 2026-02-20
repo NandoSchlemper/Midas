@@ -3865,3 +3865,8 @@ Time for 'daemon-message-serialization-HASH_GLOB' 0.1471000000000231
 [NX v22.5.1 Daemon Server] - 2026-02-19T20:28:25.079Z - [REQUEST]: Responding to the client. project-graph
 [NX v22.5.1 Daemon Server] - 2026-02-19T20:28:25.080Z - Time taken for 'total for creating and serializing project graph' 10.5044999999227ms
 [NX v22.5.1 Daemon Client] - 2026-02-19T20:28:25.080Z - [Messenger] Received message, length: 527222
+[NX v22.5.1 Daemon Server] - 2026-02-19T20:28:25.088Z - [SYNC]: @nx/js:typescript-sync changes: 
+[NX v22.5.1 Daemon Server] - 2026-02-19T20:28:25.088Z - Time taken for 'run-sync-generator:@nx/js:typescript-sync' 23.82220000005327ms
+[NX v22.5.1 Daemon Server] - 2026-02-19T20:28:25.089Z - Done responding to the client project-graph
+[NX v22.5.1 Daemon Server] - 2026-02-19T20:28:25.089Z - Handled json message REQUEST_PROJECT_GRAPH. Handling time: 10. Response time: 10.
+[NX v22.5.1 Daemon Server] - 2026-02-19T20:28:25.095Z - Closed a connection. Number of open connections: 1
